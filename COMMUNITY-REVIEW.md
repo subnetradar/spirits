@@ -13,7 +13,7 @@ Copy-paste material for the code-review phase. Customize the GitHub link once th
 > of SubnetRadar. Contract is open for community review before we deploy.
 >
 > Would love eyes on the Solidity 👇
-> github.com/fnsp86/subnetspirits-public
+> github.com/subnetradar/spirits
 
 **Tweet 2**
 > What it is:
@@ -64,7 +64,7 @@ of SubnetRadar.com (a free analytics platform for Bittensor). Non-profit
 in intent; we're treating this as a hobby project with serious security
 expectations.
 
-**Contract**: https://github.com/fnsp86/subnetspirits-public/blob/main/contracts/SubnetSpirits.sol
+**Contract**: https://github.com/subnetradar/spirits/blob/main/contracts/SubnetSpirits.sol
 (399 lines, Solidity 0.8.24, OpenZeppelin base)
 
 **Key design choices** we'd love feedback on:
@@ -134,7 +134,7 @@ Dropping a 1050-NFT sponsor edition on Bittensor EVM soon — 100% of
 proceeds fund SubnetRadar operations.
 
 Contract is up for community review before deploy:
-https://github.com/fnsp86/subnetspirits-public
+https://github.com/subnetradar/spirits
 
 Would love any Solidity-fluent folks to take 15 min and poke at it.
 Especially interested in:
@@ -165,7 +165,7 @@ Project is a **sponsor edition** — not for profit, proceeds fund a
 free analytics tool. ~€30-50K max exposure. Hobby-scale but trying
 to be serious about security.
 
-**Repo**: https://github.com/fnsp86/subnetspirits-public
+**Repo**: https://github.com/subnetradar/spirits
 
 **Highlights**:
 - ERC-721 + EIP-2981 royalty
