@@ -80,7 +80,6 @@ npx solhint 'contracts/**/*.sol'
 | Slither | 0 High, 0 Medium (12 informational, all naming/style) |
 | Solhint | 0 security warnings |
 | External audit | pending — community review in progress |
-| Immunefi bounty | going live at mainnet deploy |
 
 See [SECURITY-CHECKLIST.md](./SECURITY-CHECKLIST.md) for the full pre-deploy checklist.
 

@@ -112,7 +112,6 @@ Manual verification before mainnet deploy. Work through each item.
 - [ ] Test reveal flow end-to-end on testnet
 - [ ] Test marketplace list/buy/withdraw flow on testnet
 - [ ] Community post on Bittensor Discord + OpenZeppelin forum (≥7 days)
-- [ ] Immunefi bug bounty live (€100+ pool)
 - [ ] Terms of Service published on subnetradar.com/spirits
 - [ ] Non-investment disclaimer prominent on mint UI
 - [ ] Emergency response plan documented (pause, multi-sig coordination)

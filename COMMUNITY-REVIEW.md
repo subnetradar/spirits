@@ -37,8 +37,6 @@ Copy-paste material for the code-review phase. Customize the GitHub link once th
 > 58 unit tests, 100% line coverage, Slither clean.
 
 **Tweet 4**
-> Bug bounty going live on @immunefi at launch.
->
 > Not an investment — this is a sponsor edition. Every TAO funds servers,
 > development, and ecosystem contributions. Terms + treasury transparency
 > at subnetradar.com/spirits
@@ -116,8 +114,6 @@ royalties.
 - Gas-griefing opportunities in batch mint
 - Anything that looks off
 
-**Bug bounty**: ~€100 Immunefi program will go live at mainnet deploy.
-
 Happy to answer any questions about design tradeoffs. Thanks in advance 🙏
 ```
 
@@ -144,7 +140,7 @@ Especially interested in:
 
 58 tests passing, Slither clean, but fresh eyes always catch things.
 
-Immunefi bounty live at deploy. Thanks in advance 🙏
+Thanks in advance 🙏
 ```
 
 ---
@@ -173,7 +169,6 @@ to be serious about security.
 - Delayed reveal, grind-proof
 - Built-in marketplace with pull-payment + auto-delist on `_update()`
 - OpenZeppelin base (Ownable2Step, Pausable, ReentrancyGuard, MerkleProof)
-- ~€100 Immunefi bounty at launch
 
 **Specific things I'm unsure about**:
 - Is the provenance-commitment scheme ironclad? I hash (seed ++ mappingHash)
@@ -206,21 +201,17 @@ scripts (`scripts/*`), UI code.
 - ✅ Slither: 0 High/Medium findings
 - ✅ Solhint: 0 security warnings
 - ⏳ Community review: in progress
-- ⏳ Immunefi bounty: live at mainnet deploy (~€100 pool)
 
 **Reporting issues**:
 - Non-critical: open a GitHub issue
 - Critical/high-severity: please email subnetradar@proton.me or DM on
   Telegram @SubnetRadarBot. Responsible disclosure appreciated.
 
-**Bounty** (pre-mainnet, rough rates):
+**Bounty** (rough rates, symbolic — this is a sponsor edition, not a funded protocol):
 - Critical (drain funds / rug path): €50+
 - High (lock funds / griefing): €25+
 - Medium: €10+
 - Informational: gratitude
-
-(These are symbolic — post-launch, official Immunefi program takes over
-with larger pool.)
 ```
 
 ---
@@ -232,4 +223,4 @@ with larger pool.)
 3. **Day 7**: Post on r/ethdev (reddit peak traffic)
 4. **Day 10**: Summarize findings, incorporate fixes
 5. **Day 14**: Testnet deploy
-6. **Day 21**: Mainnet deploy + Immunefi bounty live
+6. **Day 21**: Mainnet deploy
