@@ -1,0 +1,25 @@
+{
+  "name": "subnet-spirits",
+  "version": "1.0.0",
+  "description": "Subnet Spirits — ERC-721 sponsor edition on Bittensor EVM, funding SubnetRadar.",
+  "private": true,
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "slither": "slither . --filter-paths 'node_modules'",
+    "solhint": "solhint 'contracts/**/*.sol'",
+    "build-provenance": "node scripts/build-provenance.js",
+    "build-merkle": "node scripts/build-merkle.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "hh2",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@openzeppelin/merkle-tree": "^1.0.0",
+    "@noble/hashes": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.22.0",
+    "solhint": "^5.0.0"
+  }
+}
