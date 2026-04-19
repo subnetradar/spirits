@@ -1,0 +1,20 @@
+node_modules/
+cache/
+artifacts/
+coverage/
+coverage.json
+
+# Secrets - never commit
+.env
+.env.local
+
+# Provenance secrets stay local only
+provenance/seed.txt
+provenance/mapping.json
+provenance/mapping-hash.txt
+
+# Deployment records
+deployments/
+
+# OS
+.DS_Store
